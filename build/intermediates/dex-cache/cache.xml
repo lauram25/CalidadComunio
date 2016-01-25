@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Hawk\.gradle\caches\modules-2\files-2.1\com.loopj.android\android-async-http\1.4.9\386a4339ffe52d5d63e80f9bed8d2b1d1a418249\android-async-http-1.4.9.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="386a4339ffe52d5d63e80f9bed8d2b1d1a418249">
+        <dex dex="C:\Users\Hawk\AndroidStudioProjects\comuniopsNuevo\app\build\intermediates\pre-dexed\debug\android-async-http-1.4.9-12649cb78a694fe919e7fe3b77642c46e058219c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Hawk\.gradle\caches\modules-2\files-2.1\cz.msebera.android\httpclient\4.3.6\526a9f794eab830eae4f23a62c572878b3f491ab\httpclient-4.3.6.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="526a9f794eab830eae4f23a62c572878b3f491ab">
+        <dex dex="C:\Users\Hawk\AndroidStudioProjects\comuniopsNuevo\app\build\intermediates\pre-dexed\debug\httpclient-4.3.6-504b8c76d2d134d1bbc8e65b8b21bcc48dbbe808.jar" />
+    </item>
+
+</items>
