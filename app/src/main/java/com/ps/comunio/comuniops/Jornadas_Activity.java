@@ -7,6 +7,7 @@ import android.view.MenuItem;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 
+
 public class Jornadas_Activity extends AppCompatActivity {
 
     @Override
