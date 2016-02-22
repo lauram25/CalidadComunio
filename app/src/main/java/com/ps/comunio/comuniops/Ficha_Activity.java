@@ -19,7 +19,6 @@ import org.json.JSONArray;
 
 import cz.msebera.android.httpclient.Header;
 
-
 public class Ficha_Activity extends AppCompatActivity {
     private TextView nombre;
     private TextView precio;

@@ -15,7 +15,6 @@ import org.json.JSONArray;
 
 import cz.msebera.android.httpclient.Header;
 
-
 public class Jugador_Activity extends AppCompatActivity {
     private TextView nombre;
     private TextView coste;

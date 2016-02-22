@@ -30,7 +30,7 @@ import cz.msebera.android.httpclient.Header;
 public class Equipo_Activity extends AppCompatActivity {
     private ListView plantilla;
     private int cont = 1;
-    private ArrayList<String> equipo =  new ArrayList<>();
+    private ArrayList<String> equipo = new ArrayList<>();
     String e;
 
     @Override
