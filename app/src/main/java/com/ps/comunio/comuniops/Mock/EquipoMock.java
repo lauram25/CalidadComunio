@@ -1,4 +1,4 @@
-package com.ps.comunio.comuniops.Mock;
+package com.ps.comunio.comuniops.mock;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,29 +7,41 @@ import java.util.List;
  * Created by Virginia on 18/02/2016.
  */
 public class EquipoMock {
-    private static final int NUM_MAX_JUGADORES = 24;
-    private static final int NUM_MIN_JUGADORES = 0;
+    public static final int NUM_MAX_JUGADORES = 24;
+    public static final int NUM_MIN_JUGADORES = 0;
     private String nombre;
     private List<JugadorMock> jugadores;
 
-    public EquipoMock equipo_Lleno() {
-        JugadorMock jugador;
+    static public EquipoMock equipo_Lleno() {
         EquipoMock equipo = new EquipoMock();
         equipo.jugadores = new ArrayList<JugadorMock>();
         for (int i = NUM_MIN_JUGADORES; i < NUM_MAX_JUGADORES; i++) {
-            jugador = new JugadorMock();
-            equipo.jugadores.add(jugador);
+            equipo.jugadores.add(JugadorMock.crearCristinoRonaldo());
         }
-
         equipo.nombre = "Equipo lleno";
         return equipo;
     }
 
-    public EquipoMock equipo_Vacio() {
-        JugadorMock jugador;
+    static public EquipoMock equipo_Vacio() {
         EquipoMock equipo = new EquipoMock();
         equipo.jugadores = new ArrayList<JugadorMock>();
         equipo.nombre = "Equipo vacio";
         return equipo;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public List<JugadorMock> getJugadores() {
+        return jugadores;
+    }
+
+    public void setJugadores(List<JugadorMock> jugadores) {
+        this.jugadores = jugadores;
     }
 }

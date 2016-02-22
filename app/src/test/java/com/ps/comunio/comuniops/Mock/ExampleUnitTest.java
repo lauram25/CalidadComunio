@@ -1,8 +1,4 @@
-package com.ps.comunio.comuniops;
-
-import com.ps.comunio.comuniops.Mock.CalendarioMock;
-
-import junit.framework.TestCase;
+package com.ps.comunio.comuniops.mock;
 
 import org.junit.Test;
 
@@ -15,8 +11,6 @@ import static org.junit.Assert.*;
 public class ExampleUnitTest{
     @Test
     public void addition_isCorrect() throws Exception {
-        CalendarioMock hola = new CalendarioMock();
-        System.out.println("caca");
         assertEquals(4, 2 + 2);
     }
 }

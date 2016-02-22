@@ -1,6 +1,7 @@
-package com.ps.comunio.comuniops.Mock;
+package com.ps.comunio.comuniops.mock;
 
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by Virginia on 18/02/2016.
@@ -11,24 +12,53 @@ public class ParticipanteMock {
     private EquipoMock equipo;
     private int puntos;
 
-    public ParticipanteMock nuevo_Participante_Pobre() {
+    static public ParticipanteMock nuevo_Participante_Pobre_Con_Equipo_Lleno() {
         ParticipanteMock virginia = new ParticipanteMock();
-        virginia.nombre = "Virginia";
+        virginia.nombre = "Virginia Pobre";
         virginia.dinero = 1;
-        EquipoMock equipovir = new EquipoMock();
-        virginia.equipo = equipovir;
+        virginia.equipo = EquipoMock.equipo_Lleno();
         virginia.puntos = 10000;
         return virginia;
     }
 
-    public ParticipanteMock nuevo_Participante_Rico() {
+    static public ParticipanteMock nuevo_Participante_Pobre_Con_Equipo_Vacio() {
+        ParticipanteMock virginia = new ParticipanteMock();
+        virginia.nombre = "Virginia Pobre";
+        virginia.dinero = 1;
+        virginia.equipo = EquipoMock.equipo_Vacio();
+        virginia.puntos = 10000;
+        return virginia;
+    }
+
+    static public ParticipanteMock nuevo_Participante_Rico_Con_Equipo_Vacio() {
         ParticipanteMock virginia = new ParticipanteMock();
         virginia.nombre = "VirginiaConPasta";
         virginia.dinero = 100000;
-        EquipoMock equipovir = new EquipoMock();
-        virginia.equipo = equipovir;
+        virginia.equipo = EquipoMock.equipo_Vacio();
         virginia.puntos = 1;
         return virginia;
+    }
+
+    static public ParticipanteMock nuevo_Participante_Rico_Con_Equipo_Lleno() {
+        ParticipanteMock virginia = new ParticipanteMock();
+        virginia.nombre = "VirginiaConPasta";
+        virginia.dinero = 100000;
+        virginia.equipo = EquipoMock.equipo_Lleno();
+        virginia.puntos = 1;
+        return virginia;
+    }
+
+    public boolean fichar (JugadorMock jugador) {
+        boolean salida;
+        if (dinero >= jugador.getPrecio() & equipo.getJugadores().size() < EquipoMock.NUM_MAX_JUGADORES & jugador.getEquipo() == null) {
+            List<JugadorMock> jugadores = equipo.getJugadores();
+            jugadores.add(jugador);
+            equipo.setJugadores(jugadores);
+            salida = true;
+        } else {
+            salida = false;
+        }
+        return salida;
     }
 
     public String getNombre() {
