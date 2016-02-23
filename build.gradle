@@ -33,9 +33,9 @@ def remotePath = "$remotePath"
 def localRepo = new FileRepository(localPath + "/.git")
 def git = new Git(localRepo)
 
-task commit << {
+task commit {
     git.add().addFilepattern(".").call();
-    git.commit().setMessage("Virginia").call();
+    git.commit().setMessage("librerias para cucumber").call();
 }
 
 task push << {
@@ -48,3 +48,4 @@ task push << {
 task clone << {
     Git.cloneRepository().setURI(remotePath).setDirectory(new File(localPath)).call()
 }
+

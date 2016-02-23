@@ -2,11 +2,11 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\virgi\.gradle\caches\modules-2\files-2.1\info.cukes\cucumber-junit\1.2.0\562af83cab8421ee9343670e65380b18be2e98e2\cucumber-junit-1.2.0.jar"
+        jar="C:\Users\virgi\.gradle\caches\modules-2\files-2.1\cz.msebera.android\httpclient\4.3.6\526a9f794eab830eae4f23a62c572878b3f491ab\httpclient-4.3.6.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="562af83cab8421ee9343670e65380b18be2e98e2">
-        <dex dex="C:\Users\virgi\CalidadComunio\app\build\intermediates\pre-dexed\debug\cucumber-junit-1.2.0_c8b45b8a079369f23dab9aee970f38bb3ce94b9e.jar" />
+        sha1="526a9f794eab830eae4f23a62c572878b3f491ab">
+        <dex dex="C:\Users\virgi\CalidadComunio\app\build\intermediates\pre-dexed\debug\httpclient-4.3.6_838c305bfb88e8d36399aaac8a90e2aad334728d.jar" />
     </item>
     <item
         jar="C:\Users\virgi\.gradle\caches\modules-2\files-2.1\info.cukes\cucumber-core\1.2.0\578f6dd8f7c4bfbc7ae12cc815bdf98dbd056357\cucumber-core-1.2.0.jar"
@@ -16,11 +16,53 @@
         <dex dex="C:\Users\virgi\CalidadComunio\app\build\intermediates\pre-dexed\debug\cucumber-core-1.2.0_7c0a2ecce3f76c70a6314532e3f94a310107fdf5.jar" />
     </item>
     <item
-        jar="C:\Users\virgi\.gradle\caches\modules-2\files-2.1\cz.msebera.android\httpclient\4.3.6\526a9f794eab830eae4f23a62c572878b3f491ab\httpclient-4.3.6.jar"
+        jar="C:\Users\virgi\.gradle\caches\modules-2\files-2.1\info.cukes\cucumber-java\1.2.0\1b1c564194d7369a370f9ed7582218743b9e4156\cucumber-java-1.2.0.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="526a9f794eab830eae4f23a62c572878b3f491ab">
-        <dex dex="C:\Users\virgi\CalidadComunio\app\build\intermediates\pre-dexed\debug\httpclient-4.3.6_838c305bfb88e8d36399aaac8a90e2aad334728d.jar" />
+        sha1="1b1c564194d7369a370f9ed7582218743b9e4156">
+        <dex dex="C:\Users\virgi\CalidadComunio\app\build\intermediates\pre-dexed\debug\cucumber-java-1.2.0_70041279404a167c96aa27d2d71a744d58d6b2fb.jar" />
+    </item>
+    <item
+        jar="C:\Users\virgi\CalidadComunio\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="C:\Users\virgi\CalidadComunio\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1_7acbdc483b42cbc5461d4c7381b83217f2c6d638.jar" />
+    </item>
+    <item
+        jar="C:\Users\virgi\.gradle\caches\modules-2\files-2.1\info.cukes\cucumber-junit\1.2.0\562af83cab8421ee9343670e65380b18be2e98e2\cucumber-junit-1.2.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="562af83cab8421ee9343670e65380b18be2e98e2">
+        <dex dex="C:\Users\virgi\CalidadComunio\app\build\intermediates\pre-dexed\debug\cucumber-junit-1.2.0_c8b45b8a079369f23dab9aee970f38bb3ce94b9e.jar" />
+    </item>
+    <item
+        jar="C:\Users\virgi\CalidadComunio\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="C:\Users\virgi\CalidadComunio\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.1.1_c118cab42b4146fb90fa206f8574bdee1f7f168a.jar" />
+    </item>
+    <item
+        jar="C:\Users\virgi\.gradle\caches\modules-2\files-2.1\info.cukes\cucumber-jvm-deps\1.0.3\cccdeff234db8b12e91ae2529812f1240b4d5603\cucumber-jvm-deps-1.0.3.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="cccdeff234db8b12e91ae2529812f1240b4d5603">
+        <dex dex="C:\Users\virgi\CalidadComunio\app\build\intermediates\pre-dexed\debug\cucumber-jvm-deps-1.0.3_39f8ad3213729106c9fba77e9e0ebae978ec9267.jar" />
+    </item>
+    <item
+        jar="C:\Users\virgi\.gradle\caches\modules-2\files-2.1\info.cukes\gherkin\2.12.2\17138631fa20fd0e44a13e50d6b7be59cee1a94\gherkin-2.12.2.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="017138631fa20fd0e44a13e50d6b7be59cee1a94">
+        <dex dex="C:\Users\virgi\CalidadComunio\app\build\intermediates\pre-dexed\debug\gherkin-2.12.2_f8d2bdf4d99816b2c84d634bf5b5bf3d18559c0f.jar" />
+    </item>
+    <item
+        jar="C:\Users\virgi\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-core\1.3\42a25dc3219429f0e5d060061f71acb49bf010a0\hamcrest-core-1.3.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="42a25dc3219429f0e5d060061f71acb49bf010a0">
+        <dex dex="C:\Users\virgi\CalidadComunio\app\build\intermediates\pre-dexed\debug\hamcrest-core-1.3_37c89d18e69be1a0b81f451597e05e218609b2b7.jar" />
     </item>
     <item
         jar="C:\Users\virgi\CalidadComunio\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
@@ -37,46 +79,11 @@
         <dex dex="C:\Users\virgi\CalidadComunio\app\build\intermediates\pre-dexed\debug\android-async-http-1.4.9_194802917084abfe9763f74d351ffaf40cf35234.jar" />
     </item>
     <item
-        jar="C:\Users\virgi\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-core\1.3\42a25dc3219429f0e5d060061f71acb49bf010a0\hamcrest-core-1.3.jar"
+        jar="C:\Users\virgi\CalidadComunio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="42a25dc3219429f0e5d060061f71acb49bf010a0">
-        <dex dex="C:\Users\virgi\CalidadComunio\app\build\intermediates\pre-dexed\debug\hamcrest-core-1.3_37c89d18e69be1a0b81f451597e05e218609b2b7.jar" />
-    </item>
-    <item
-        jar="C:\Users\virgi\CalidadComunio\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
-        <dex dex="C:\Users\virgi\CalidadComunio\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.1.1_c118cab42b4146fb90fa206f8574bdee1f7f168a.jar" />
-    </item>
-    <item
-        jar="C:\Users\virgi\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
-        <dex dex="C:\Users\virgi\CalidadComunio\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1_b80d059517c147f247b489e327bb98da998e40bc.jar" />
-    </item>
-    <item
-        jar="C:\Users\virgi\.gradle\caches\modules-2\files-2.1\info.cukes\gherkin\2.12.2\17138631fa20fd0e44a13e50d6b7be59cee1a94\gherkin-2.12.2.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="017138631fa20fd0e44a13e50d6b7be59cee1a94">
-        <dex dex="C:\Users\virgi\CalidadComunio\app\build\intermediates\pre-dexed\debug\gherkin-2.12.2_f8d2bdf4d99816b2c84d634bf5b5bf3d18559c0f.jar" />
-    </item>
-    <item
-        jar="C:\Users\virgi\.gradle\caches\modules-2\files-2.1\junit\junit\4.11\4e031bb61df09069aeb2bffb4019e7a5034a4ee0\junit-4.11.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="4e031bb61df09069aeb2bffb4019e7a5034a4ee0">
-        <dex dex="C:\Users\virgi\CalidadComunio\app\build\intermediates\pre-dexed\debug\junit-4.11_dcbd0ed112fd889fd305f5d71b1e7528a4c0bcdf.jar" />
-    </item>
-    <item
-        jar="C:\Users\virgi\CalidadComunio\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
-        <dex dex="C:\Users\virgi\CalidadComunio\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1_7acbdc483b42cbc5461d4c7381b83217f2c6d638.jar" />
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="C:\Users\virgi\CalidadComunio\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.1.1_7e44b0aad08da14f6d9fc29bd0df4a9d64a94f49.jar" />
     </item>
     <item
         jar="C:\Users\virgi\CalidadComunio\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
@@ -86,25 +93,18 @@
         <dex dex="C:\Users\virgi\CalidadComunio\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.1.1_60c691e52b804ab7923b145939b2f2b08bfae44e.jar" />
     </item>
     <item
-        jar="C:\Users\virgi\CalidadComunio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jar="C:\Users\virgi\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
-        <dex dex="C:\Users\virgi\CalidadComunio\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.1.1_7e44b0aad08da14f6d9fc29bd0df4a9d64a94f49.jar" />
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="C:\Users\virgi\CalidadComunio\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1_b80d059517c147f247b489e327bb98da998e40bc.jar" />
     </item>
     <item
-        jar="C:\Users\virgi\.gradle\caches\modules-2\files-2.1\info.cukes\cucumber-java\1.2.0\1b1c564194d7369a370f9ed7582218743b9e4156\cucumber-java-1.2.0.jar"
+        jar="C:\Users\virgi\.gradle\caches\modules-2\files-2.1\junit\junit\4.11\4e031bb61df09069aeb2bffb4019e7a5034a4ee0\junit-4.11.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="1b1c564194d7369a370f9ed7582218743b9e4156">
-        <dex dex="C:\Users\virgi\CalidadComunio\app\build\intermediates\pre-dexed\debug\cucumber-java-1.2.0_70041279404a167c96aa27d2d71a744d58d6b2fb.jar" />
-    </item>
-    <item
-        jar="C:\Users\virgi\.gradle\caches\modules-2\files-2.1\info.cukes\cucumber-jvm-deps\1.0.3\cccdeff234db8b12e91ae2529812f1240b4d5603\cucumber-jvm-deps-1.0.3.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="cccdeff234db8b12e91ae2529812f1240b4d5603">
-        <dex dex="C:\Users\virgi\CalidadComunio\app\build\intermediates\pre-dexed\debug\cucumber-jvm-deps-1.0.3_39f8ad3213729106c9fba77e9e0ebae978ec9267.jar" />
+        sha1="4e031bb61df09069aeb2bffb4019e7a5034a4ee0">
+        <dex dex="C:\Users\virgi\CalidadComunio\app\build\intermediates\pre-dexed\debug\junit-4.11_dcbd0ed112fd889fd305f5d71b1e7528a4c0bcdf.jar" />
     </item>
 
 </items>
