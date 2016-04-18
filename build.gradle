@@ -28,24 +28,3 @@ import org.eclipse.jgit.api.*
 import org.eclipse.jgit.internal.storage.file.FileRepository
 import org.eclipse.jgit.transport.*
 
-def localPath = "$localPath"
-def remotePath = "$remotePath"
-def localRepo = new FileRepository(localPath + "/.git")
-def git = new Git(localRepo)
-
-task commit {
-    git.add().addFilepattern(".").call();
-    git.commit().setMessage("librerias para cucumber").call();
-}
-
-task push << {
-    def credentials = new UsernamePasswordCredentialsProvider("$user", "$password")
-    def push = git.push();
-    push.setCredentialsProvider(credentials);
-    push.call();
-}
-
-task clone << {
-    Git.cloneRepository().setURI(remotePath).setDirectory(new File(localPath)).call()
-}
-
